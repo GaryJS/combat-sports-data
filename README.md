@@ -57,6 +57,8 @@ This dataset contains fight statistics from UFC events between 2016 and 2024
 
 ## References 
 - [Original Dataset on Kaggle](https://www.kaggle.com/datasets/alexmagnus24/ufc-fight-statistics-july-2016-nov-2024)
+---
 -[UFC official Website](https://www.ufc.com/events)
+---
 -**Author** Gary San Angelo
 -**Date** 02/12/2025
