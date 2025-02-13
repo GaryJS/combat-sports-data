@@ -20,17 +20,16 @@ This dataset contains fight statistics from UFC events between 2016 and 2024
 - Column names were standardized
 - fighter_a, fighter_b, method, referee, weight_class, event = `string`
 - winner, rounds = `int`
-- fight_time = `timedelta`
-- total_strike_landed_a, total_strike_landed_b, total_strike_missed_a, total_strike_missed_b, knockdowns_a, knockdowns_b, td_completed_a, td_completed_b, td_missed_a, td_missed_b, sub_att_a, sub_att_b, ctrl_time_minutes_a, ctrl_time_minutes_b_, rounds = `float`
+- total_strike_landed_a, total_strike_landed_b, total_strike_missed_a, total_strike_missed_b, knockdowns_a, knockdowns_b, td_completed_a, td_completed_b, td_missed_a, td_missed_b, sub_att_a, sub_att_b, ctrl_time_minutes_a, ctrl_time_minutes_b_, rounds, fight_time = `float`
 
 ## Data Units and Column Definitions
 | Column Name                 | Description                                              | Data Type  |
 |-----------------------------|----------------------------------------------------------|------------|
 | `fighter_a`                 | Name of Fighter 1                                       | String     |
 | `fighter_b`                 | Name of Fighter 2                                       | String     |
-| `winner`                    | Winner of the fight (1 = Fighter A, 0 = Fighter B)      | Category   |
+| `winner`                    | Winner of the fight (1 = Fighter A, 0 = Fighter B)      | Integer   |
 | `method`                    | How the fight was won (KO/TKO, Submission, Decision)    | String     |
-| `fight_time`                | Total duration of the fight (MM:SS or rounds-based)     | Timedelta  |
+| `fight_time`                | Total duration of the fight (MM:SS or rounds-based)     | Float      |
 | `referee`                   | Name of the referee for the fight                       | String     |
 | `weight_class`              | Weight class of the fight (e.g., Lightweight, Heavyweight) | String  |
 | `event`                     | Name of the UFC event                                   | String     |
