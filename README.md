@@ -14,4 +14,5 @@ This dataset contains fight statistics from UFC events between 2016 and 2024
 - No major transformations occurred during extraction.
 
 ## Data Cleaning Process
--
+- Data was cleaned using Python (`pandas`).
+- NA values only appeared in the referee column, these rows were not excluded.
