@@ -29,7 +29,7 @@ This dataset contains fight statistics from UFC events between 2016 and 2024
 | `fighter_b`                 | Name of Fighter 2                                       | String     |
 | `winner`                    | Winner of the fight (1 = Fighter A, 0 = Fighter B)      | Integer   |
 | `method`                    | How the fight was won (KO/TKO, Submission, Decision)    | String     |
-| `fight_time`                | Total duration of the fight (MM:SS or rounds-based)     | Float      |
+| `fight_time`                | Total duration of the fight (MM:SS or rounds-based)     | String      |
 | `referee`                   | Name of the referee for the fight                       | String     |
 | `weight_class`              | Weight class of the fight (e.g., Lightweight, Heavyweight) | String  |
 | `event`                     | Name of the UFC event                                   | String     |
